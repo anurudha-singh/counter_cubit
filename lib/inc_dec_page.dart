@@ -8,9 +8,9 @@ class IncDecPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final counterBloc = BlocProvider.of<CounterBloc>(context);
+    final counterBloc = BlocProvider.of<CounterBloc>(context); //
 
-    final counterCubit = BlocProvider.of<CounterCubit>(context);
+    final counterCubit = BlocProvider.of<CounterCubit>(context); //
 
     return Scaffold(
       floatingActionButton: Column(
